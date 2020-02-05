@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Model Agency</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<!-- JQ -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- bootstrap Js -->
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js">
+	</script>
+	<!-- Custom JS -->
+	<script type="text/javascript" src="custom.js"></script>
+</head>
+<body>
+	<div id="banner">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<a class="navbar-brand" href="#">
+				<img src="img/modellogo3.jpg" style="width: 170px;height: 60px;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active px-3">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item px-3">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item px-3">
+						<a class="nav-link" href="#">Models</a>
+					</li>
+					<li class="nav-item px-3">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item px-3">
+						<a class="nav-link" href="#" data-toggle="modal"data-target="#signinupModal">Sign In | Sign Up</a>
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+		<div class="modal fade" id="signinupModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Sign In | Sign Up</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-lg-6 col-md-12 col-sm-12">
+								<img src="img/female7.jpeg" class="img-fluid">
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12">
+								<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Sign Up</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Sign In</a>
+									</li>
+									
+								</ul>
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+										<form>
+											<div class="form-group">
+												<label for="username">User Name</label
+													>
+													<input type="text" name="" class="form-control" id="username">
+												</div>
+												<div class="form-group">
+													<label for="email">Email</label
+														>
+														<input type="email" name="" class="form-control" id="email">
+													</div>
+													<div class="form-group">
+														<label for="password">Password</label
+															>
+															<input type="password" name="" class="form-control" id="password">
+														</div>
+														<div class="offset-2 col-8 offset-2">
+															<button type="submit" class="btn btn-light btn-block">
+																Register
+															</button>
+														</div>
+													</form>
+												</div>
+												<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+													<div class="form-group">
+														<label for="email">Email</label
+															>
+															<input type="email" name="" class="form-control" id="email">
+														</div>
+														<div class="form-group">
+															<label for="password">Password</label
+																>
+																<input type="password" name="" class="form-control" id="password">
+															</div>
+															<div class="form-group form-check">
+																<input type="checkbox" class="form-check-input" id="exampleCheck1">
+																<label class="form-check-label" for="exampleCheck1">Remember Me</label>
+															</div>
+															<div class="offset-2 col-8 offset-2">
+																<button type="submit" class="btn btn-light btn-block">
+																	Login
+																</button>
+															</div>
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="container" id="navtitle">
+								<div class="row justify-content-center text-center">
+									<div class="col-10">
+										<h1 class="display-3 text-white" id="navheader">Your Carreer of a Model</h1>
+										<hr class="my-5" id="divider">
+									</div>
+									<div class="col-8">
+										<p class="text-white ">We Are Professional Model Agency Based in London</p>
+										<div class="mt-5">
+											<a href="contact.html" id="contactbtn">Contact Us</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="row my-5">
+								<div class="col-lg-3 col-md-6 col-sm-12">
+									<span class="fa-stack fa-2x">
+										<i class="fas fa-circle fa-stack-2x primary "></i>
+										<i class="fas fa-gem fa-stack-1x fa-inverse"></i>
+									</span>
+									<h3 class="my-4">Finding Agency</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliqu</p>
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12">
+									<span class="fa-stack fa-2x">
+										<i class="fas fa-circle fa-stack-2x primary"></i>
+										<i class="fas fa-star fa-stack-1x fa-inverse"></i>
+									</span>
+									<h3 class="my-4">Type of Modeling</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliqu</p>
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12">
+									<span class="fa-stack fa-2x">
+										<i class="fas fa-circle fa-stack-2x primary"></i>
+										<i class="fas fa-tshirt fa-stack-1x fa-inverse"></i>
+									</span>
+
+									<h3 class="my-4">Freelance</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliqu</p>
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12">
+									<span class="fa-stack fa-2x">
+										<i class="fas fa-circle fa-stack-2x primary"></i>
+										<i class="fas fa-search fa-stack-1x fa-inverse"></i>
+									</span>
+									<h3 class="my-4">Search Models</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliqu</p>
+
+								</div>
+							</div>
+						</div>
+						<div id="counter">
+							<div class="container p-5">
+								<div class="row text-white text-center">
+									<div class="col-lg-4 col-md-12 col-sm-12">
+										<h1>1,000</h1>
+										<p>Models</p>
+									</div>
+									<div class="col-lg-4 col-md-12 col-sm-12">
+										<h1>40</h1>
+										<p>Awards</p>
+									</div>
+									<div class="col-lg-4 col-md-12 col-sm-12">
+										<h1>245</h1>
+										<p>Events</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="container">
+							<div class="row ">
+								<div class="col-lg-4 col-md-12">
+									<img src="img/female33.jpg">
+								</div>
+								<div class="col-lg-8 col-md-12 my-5">
+									<p style="color: pink;">WWW.modelagency.com</p>
+									<h4 class="mx-3">We Are Model Agency</h4>
+									<div class="row">
+										<div class="col-lg-3">
+
+											<i class="fas fa-gem fa-4x"></i>
+
+
+										</div>
+										<div class="col-lg-9">
+											<h5>Fashion Shows</h5>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut</p>
+
+										</div>
+										<div class="col-lg-3">
+											<i class="fas fa-icons fa-4x"></i>
+
+
+										</div>
+										<div class="col-lg-9">
+											<h5>Photo Sessions</h5>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut</p>
+
+										</div>
+										<div class="col-lg-3">
+											<i class="fas fa-icons fa-4x"></i>
+
+
+										</div>
+										<div class="col-lg-9">
+											<h5>Model Video</h5>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut</p>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid">
+
+							<h4 class="text-center">Popular Modal</h4>
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
+							<div class="row">
+								<div class="col-lg-3 col-md-6 col-sm-12 mt-5 order-lg-1 order-md-5">
+									<div class="card">
+										<img src="img/male3.jpg" class="card-img-top" alt="...">
+										<div class="quote">
+											<a href="" style="display: block">David Claly</a>
+										</div>
+
+									</div>
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 mt-5 order-lg-2">
+									<div class="card">
+										<img src="img/male2.jpg" class="card-img-top" alt="...">
+										<div class="quote">
+											<a href="" style="display: block">David Claly</a>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 mt-5 order-lg-3">
+									<div class="card">
+										<img src="img/male4.jpg" class="card-img-top" alt="...">
+										<div class="quote">
+											<a href="" style="display: block">David Claly</a>
+										</div>
+
+
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 mt-5 order-lg-4">
+									<div class="card">
+										<img src="img/male5.jpg" class="card-img-top" alt="...">
+
+										<div class="quote">
+											<a href="" style="display: block">David Claly</a>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 mt-5 order-lg-5 order-md-1">
+									<div class="card">
+										<img src="img/female1.jpeg" class="card-img-top" alt="...">
+
+										<div class="quote">
+											<a href="" style="display: block">David Claly</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 mt-5 order-lg-6">
+									<img src="img/female44.jpeg" class="card-img-top" alt="...">
+
+									<div class="quote">
+										<a href="" style="display: block">David Claly</a>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 mt-5 order-lg-7">
+									<img src="img/female4.jpg" class="card-img-top" alt="...">
+
+									<div class="quote">
+										<a href="" style="display: block">David Claly</a>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12 mt-5 order-lg-8">
+									<img src="img/female6.jpg" class="card-img-top" alt="...">
+
+									<div class="quote">
+										<a href="" style="display: block">David Claly</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container my-5">
+							<h4 class="text-center">My satisfied customer says</h4>
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+							<div class="row  my-5">
+								<div class="carousel slide" data-ride="carousel" data-interval="1000" id="myslide">
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img src="img/bgwhite.jpg" style="width: 1200px;height: 400px" class="img-fluid" >
+											<!-- <div class="row"> -->
+											<div class="carousel-caption row">
+												<div class=" col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>	
+												
+												<div class="col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>
+												<div class="col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i></h4>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>
+												<div class="col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>
+											</div>
+											<!-- </div> -->
+										</div>
+										<div class="carousel-item active">
+											<img src="img/bgwhite.jpg" style="width: 1200px;height: 400px" class="img-fluid" >
+											<!-- <div class="row"> -->
+											<div class="carousel-caption row">
+												<div class=" col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>	
+												
+												<div class="col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>
+												<div class="col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i></h4>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>
+												<div class="col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>
+											</div>
+											<!-- </div> -->
+										</div>
+										<div class="carousel-item active">
+											<img src="img/bgwhite.jpg" style="width: 1200px;height: 400px" class="img-fluid" >
+											<!-- <div class="row"> -->
+											<div class="carousel-caption row">
+												<div class=" col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>	
+												
+												<div class="col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>
+												<div class="col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i></h4>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>
+												<div class="col-lg-3">
+													<i class="fas fa-grin-hearts fa-2x"></i>
+													<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+												</div>
+											</div>
+											<!-- </div> -->
+										</div>
+										<a href="#myslide" class="carousel-control-prev " data-slide="prev">
+											<span class="carousel-control-prev-icon " style="background-color: #0F0D01;color:#F6F5F1"></span>
+										</a>
+										<a href="#myslide" class="carousel-control-next " data-slide="next">
+											<span class="carousel-control-next-icon " style="background-color: #0F0D01;color:#F6F5F1"></span>
+										</a>
+										<ul class="carousel-indicators" id="#myslide">
+											<li data-slide-to="0" style="background-color:#0F0D01 "></li>
+											<li data-slide-to="1" style="background-color:#0F0D01 "></li>
+											<li data-slide-to="2" style="background-color:#0F0D01 "></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div id="container1" style="background-color: #ec037c;">
+		<div class="row">
+			<div class="col-lg-3">
+				<h4>About Me</h4>
+				<p>Fas far away, behind the word <br> mountains, far pro the countries <br> Wokali and cosmaticm, there live the blind tests.</p>
+			</div>
+			<div class="col-lg-3">
+				<h4>About Me</h4>
+				<p>Fas far away, behind the word <br> mountains, far pro the countries <br> Wokali and cosmaticm, there live the blind tests.</p>
+			</div>
+			<div class="col-lg-3">
+				<h4>About Me</h4>
+				<p>Fas far away, behind the word <br> mountains, far pro the countries <br> Wokali and cosmaticm, there live the blind tests.</p>
+			</div>
+			<div class="col-lg-3">
+				<h4>About Me</h4>
+				<p>Fas far away, behind the word <br> mountains, far pro the countries <br> Wokali and cosmaticm, there live the blind tests.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
